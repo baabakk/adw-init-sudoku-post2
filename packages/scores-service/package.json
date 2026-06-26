@@ -2,7 +2,24 @@
   "name": "@init-sudoku-post2/scores-service",
   "version": "0.0.0",
   "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "jest --coverage",
+    "start": "node dist/index.js"
+  },
   "dependencies": {
-    "@init-sudoku-post2/contracts": "*"
+    "@init-sudoku-post2/contracts": "*",
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.2",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "supertest": "^6.3.3",
+    "typescript": "^5.2.2"
   }
 }
