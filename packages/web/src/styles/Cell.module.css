@@ -1,0 +1,13 @@
+.cell {
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 1px solid #999;
+  margin: 0;
+  padding: 0;
+}
+
+.cell:focus {
+  outline: 2px solid #1976d2;
+}
