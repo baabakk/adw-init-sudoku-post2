@@ -1,18 +1,18 @@
 {
   "compilerOptions": {
-    "composite": true,
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
     "rootDir": "src",
-    "strict": true,
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "composite": true,
+    "lib": ["DOM", "DOM.Iterable", "ES2022"]
   },
-  "references": [
-    {
-      "path": "../contracts"
-    }
-  ],
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "references": [{"path": "../contracts"}]
 }
